@@ -1,0 +1,12 @@
+li {
+    opacity: 0;
+    /*transform: translateX(-300px);*/
+    transition: all ease 300ms;
+    max-height: 0;
+}
+
+.show {
+    /*transform: translateX(0);*/
+    opacity: 1;
+    max-height: 84px;
+}
